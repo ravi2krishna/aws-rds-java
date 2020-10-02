@@ -26,4 +26,3 @@ Goal: The purpose of this project is to test java application connectivity with 
 Be in the project directory
 - `mvn package`
 - `Copy the artifact i.e war file from target directory to Application Server Webapps directory`
-
