@@ -24,7 +24,15 @@
 			<version>4.10</version>
 		</dependency>
 	</dependencies>
-	<build>
-		<finalName>LoginWebApp</finalName>
-	</build>
+<build>
+<finalName>LoginWebApp</finalName>
+<pluginManagement>
+  <plugins>
+    <plugin>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.2.2</version>
+    </plugin>
+  </plugins>
+</pluginManagement>
+</build>
 </project>
